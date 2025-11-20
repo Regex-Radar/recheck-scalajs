@@ -16,30 +16,8 @@
         "lib",
         "types.d.ts"
     ],
-    "scripts": {
-        "build": "node -r esbuild-register scripts/build.ts",
-        "format": "prettier --write './**/*.{ts,json,md}'",
-        "clean": "rm -r dist/ lib/"
-    },
     "exports": {
         ".": "./lib/recheck.js"
-    },
-    "optionalDependencies": {
-        "@regex-radar/recheck-scalajs": "^4.5.0",
-        "recheck-jar": "^4.5.0",
-        "recheck-linux-arm64": "^4.5.0",
-        "recheck-linux-x64": "^4.5.0",
-        "recheck-macos-arm64": "^4.5.0",
-        "recheck-macos-x64": "^4.5.0",
-        "recheck-windows-x64": "^4.5.0",
-        "synckit": "^0.11.11"
-    },
-    "devDependencies": {
-        "@types/node": "^24.10.1",
-        "esbuild": "^0.27.0",
-        "esbuild-register": "^3.6.0",
-        "prettier": "^3.6.2",
-        "typescript": "^5.9.3"
     },
     "engines": {
         "node": ">=20"
@@ -49,6 +27,7 @@
         "regexp",
         "security",
         "vulnerability",
+        "scalajs",
         "esm"
     ]
 }
