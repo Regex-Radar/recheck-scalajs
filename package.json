@@ -1,7 +1,7 @@
 {
     "name": "@regex-radar/recheck-scalajs",
     "version": "4.5.0-alpha1",
-    "description": "The ScalaJS implementation of recheck",
+    "description": "The ScalaJS implementation of recheck - available as ESM",
     "license": "MIT",
     "author": {
         "name": "Kevin Ramharak",
