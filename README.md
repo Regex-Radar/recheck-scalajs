@@ -16,9 +16,13 @@ import { check } from '@regex-radar/recheck-scalajs';
 const result = check('a|ab+', 'g');
 ```
 
+## Build
+
+This repository/package is a distribution of the build output of `recheck`s compilation with scalajs as its target. similar to the native and jar build targets of `recheck`.
+
 ## `recheck`
 
 For more information about `recheck` see:
 
-- [the official documentation](https://makenowjust-labs.github.io/recheck/docs/usage/as-javascript-library)
-- [the GitHub repository](https://github.com/makenowjust-labs/recheck)
+-   [the official documentation](https://makenowjust-labs.github.io/recheck/docs/usage/as-javascript-library)
+-   [the GitHub repository](https://github.com/makenowjust-labs/recheck)
