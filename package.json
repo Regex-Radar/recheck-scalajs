@@ -1,6 +1,6 @@
 {
     "name": "@regex-radar/recheck-scalajs",
-    "version": "4.5.0",
+    "version": "4.5.1",
     "description": "The ScalaJS implementation of recheck - distributed in ESM format",
     "license": "MIT",
     "publishConfig": {
@@ -15,6 +15,7 @@
         "type": "git",
         "url": "git+https://github.com/regex-radar/recheck-scalajs.git"
     },
+    "sideEffects": false,
     "type": "module",
     "files": [
         "lib",

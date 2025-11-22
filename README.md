@@ -20,6 +20,12 @@ const result = check('a|ab+', 'g');
 
 This repository/package is a distribution of the build output of `recheck`s compilation with scalajs as its target. similar to the native and jar build targets of `recheck`.
 
+The build output is not included in the git index, because they are output files from building `recheck`. The files that are copied from `recheck`:
+
+```bash
+cp modules/recheck-js/target/scala-2.13/recheck-js-opt/ lib/
+```
+
 ## `recheck`
 
 For more information about `recheck` see:
